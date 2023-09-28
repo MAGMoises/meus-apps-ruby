@@ -37,7 +37,7 @@ loop do
   puts "O resultado é: #{result}"
 
   # Perguntar se deseja continuar
-  print "Deseja continuar? 'sim' / 'não' para continuar: "
+  print "Continuar? 'sim' / 'não' para continuar: "
   continuar = gets.chomp.downcase
   break unless continuar == 'sim' || continuar == 's'
 end
